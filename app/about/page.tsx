@@ -5,7 +5,7 @@ export default function AboutPage() {
     <main className="min-h-screen bg-gray-50">
       <nav className="bg-white border-b px-6 py-4 flex justify-between items-center">
         <div>
-          <h1 className="text-lg font-medium text-gray-900">아모레 리사이클 캠페인</h1>
+          <h1 className="text-lg font-medium text-gray-900">AMORE:CYCLE</h1>
           <p className="text-sm text-gray-500">캠페인 소개</p>
         </div>
         <Link href="/" className="text-sm text-gray-600 hover:text-gray-900">대시보드로</Link>
@@ -14,12 +14,11 @@ export default function AboutPage() {
       <div className="max-w-2xl mx-auto px-6 py-10 space-y-8">
 
         <div className="bg-white rounded-xl border p-6">
-          <h2 className="text-base font-medium text-gray-900 mb-3">아모레 리사이클이란?</h2>
+          <h2 className="text-base font-medium text-gray-900 mb-3">AMORE:CYCLE이란?</h2>
           <p className="text-sm text-gray-600 leading-relaxed">
-            아모레 리사이클은 아모레퍼시픽이 운영하는 공병 수거 재활용 캠페인입니다.
-            다 쓴 화장품 공병을 매장이나 수거함에 반납하면 세척 및 분쇄하여
-            새로운 플라스틱 원료로 재탄생시킵니다. 2009년부터 시작된 이 캠페인은
-            지금까지 수백만 개의 공병을 재활용해 왔습니다.
+            AMORE:CYCLE(아모레리사이클)은 아모레퍼시픽이 운영하는 화장품 공병 수거 및 재활용 캠페인입니다.
+            2009년부터 시작된 공병 수거 캠페인은 2024년까지 누적 2,721톤의 공병을 수거하였으며, 2024년 1월부터 온•오프라인 용기 수거 서비스인 아모레리사이클 캠페인을 통해 기존 오프라인 용기 수거를 온라인(아모레몰)까지 확대하였습니다.
+            또한 재활용되는 플라스틱의 비중을 높이기 위해 기존에 수거하던 플라스틱과 유리 재질의 화장품 용기뿐만 아니라 헤어, 바디, 핸드케어 등의 생활용품과 쿠션, 팩트 등 메이크업 일부, 향수까지 수거 품목을 넓혔습니다.
           </p>
         </div>
 
@@ -54,13 +53,13 @@ export default function AboutPage() {
             </div>
             <div className="flex gap-3">
               <span className="bg-green-100 text-green-700 text-xs font-medium rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">3</span>
-              <p className="text-sm text-gray-600">수거된 공병은 아모레 리사이클 캠페인을 통해 전문적으로 재활용됩니다.</p>
+              <p className="text-sm text-gray-600">수거된 공병은 아모레리사이클을 통해 전문적으로 재활용됩니다.</p>
             </div>
           </div>
         </div>
 
         <div className="bg-green-50 rounded-xl border border-green-200 p-6 text-center">
-          <p className="text-sm text-green-800 font-medium mb-1">아모레 리사이클 공식 캠페인</p>
+          <p className="text-sm text-green-800 font-medium mb-1">AMORE:CYCLE 공식 캠페인</p>
           <p className="text-sm text-green-700 mb-3">더 자세한 내용은 아모레퍼시픽 공식 사이트에서 확인하세요</p>
           <Link
             href="https://www.amoremall.com/kr/ko/display/event_detail?planDisplaySn=13143&srsltid=AfmBOooB24YE9x69CZlvkX39koe0jEjRaeDP4nsv6xqfRcPMHoJsFLAm"
