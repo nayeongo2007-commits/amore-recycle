@@ -27,7 +27,7 @@ export default function Home() {
 
   const totalAll = collections.reduce((sum, c) => sum + c.quantity, 0)
 
-  const categories = ['스킨케어', '샴푸/린스', '바디워시', '헤어케어']
+  const categories = ['스킨케어', '생활용품', '쿠션/팩트', '향수']
 
   return (
     <main className="min-h-screen bg-gray-50">
