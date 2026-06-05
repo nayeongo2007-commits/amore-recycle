@@ -119,7 +119,7 @@ export default function AdminPage() {
               value={form.category}
               onChange={e => setForm(f => ({ ...f, category: e.target.value }))}
             >
-              {['스킨케어', '샴푸/린스', '바디워시', '헤어케어'].map(c => (
+              {['스킨케어', '생활용품', '쿠션/팩트', '향수'].map(c => (
                 <option key={c} value={c}>{c}</option>
               ))}
             </select>
