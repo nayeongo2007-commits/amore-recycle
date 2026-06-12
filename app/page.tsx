@@ -33,7 +33,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50">
       <nav className="bg-white border-b px-6 py-4 flex justify-between items-center">
         <div>
-          <h1 className="text-lg font-medium text-gray-900">아모레 리사이클 캠페인</h1>
+          <h1 className="text-lg font-medium text-gray-900">AMORE:CYCLE 캠페인</h1>
           <p className="text-sm text-gray-500">중앙대학교 기숙사 공병 수거 현황</p>
         </div>
         <div className="flex gap-4">
