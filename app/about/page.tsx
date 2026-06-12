@@ -16,9 +16,15 @@ export default function AboutPage() {
         <div className="bg-white rounded-xl border p-6">
           <h2 className="text-base font-medium text-gray-900 mb-3">AMORE:CYCLE이란?</h2>
           <p className="text-sm text-gray-600 leading-relaxed">
-            AMORE:CYCLE[아모레리사이클]은 다 쓴 화장품 용기를 아모레퍼시픽 공식 온라인몰과 오프라인 매장에서 회수하여 재활용하는 프로그램입니다. 수거된 화장품 용기는 가능한 다양한 방법으로 재활용되며, 땅에 매립되거나 소각되는 폐기물을 최소화하는데 기여합니다.
-            2009년부터 시작된 공병 수거 캠페인은 2024년까지 누적 2,721톤의 공병을 수거하였으며, 2024년 1월부터 온•오프라인 용기 수거 서비스인 아모레리사이클 캠페인을 통해 기존 오프라인 용기 수거를 온라인(아모레몰)까지 확대하였습니다.
-            또한 재활용되는 플라스틱의 비중을 높이기 위해 기존에 수거하던 플라스틱과 유리 재질의 화장품 용기뿐만 아니라 헤어, 바디, 핸드케어 등의 생활용품과 쿠션, 팩트 등 메이크업 일부, 향수까지 수거 품목을 넓혔습니다.
+            AMORE:CYCLE[아모레리사이클]은 다 쓴 화장품 용기를 아모레퍼시픽 공식 온라인몰과 오프라인 매장에서 회수하여 재활용하는 프로그램입니다.
+            수거된 화장품 용기는 가능한 다양한 방법으로 재활용되며, 땅에 매립되거나 소각되는 폐기물을 최소화하는데 기여합니다.
+            아모레퍼시픽그룹은 용기수거 캠페인을 통해 2009년부터 2025년까지 누적량 2,840톤의 화장품 용기를 수거했습니다.
+            2025년 한 해에만 119톤을 수거 했고, 약 16만 명이 참여해 170만 병 이상의 용기가 회수되었습니다.
+            또한 2024년 1월부터는 기존 오프라인 중심의 서비스를 온라인(아모레몰)으로 확대해 고객 편의성을 높였고, 재활용 비중을 높이기 위해 수거 품목도 크게 확장했습니다.
+            그 결과, 2025년 한 해 동안 아모레몰을 통해 총 7,916명의 고객분들께서 참여해 주셨고, 건수 기준으로는 약 1.1만 건의 참여가 이루어졌습니다.
+            이 놀라운 성과는 용기 수거에 진심으로 동참해 주신 '여러분'이 있었기에 가능했습니다.
+            다 쓴 용기가 다시 자원으로 이어질 수 있도록, 아름다운 순환에 오늘도 함께해 주세요!
+  
           </p>
         </div>
 
@@ -59,7 +65,7 @@ export default function AboutPage() {
         </div>
 
         <div className="bg-green-50 rounded-xl border border-green-200 p-6 text-center">
-          <p className="text-sm text-green-800 font-medium mb-1">AMORE:CYCLE 공식 캠페인</p>
+          <p className="text-sm text-green-800 font-medium mb-1">AMORE:CYCLE 캠페인</p>
           <p className="text-sm text-green-700 mb-3">더 자세한 내용은 아모레퍼시픽 공식 사이트에서 확인하세요</p>
           <Link
             href="https://www.amoremall.com/kr/ko/display/event_detail?planDisplaySn=13143&srsltid=AfmBOooB24YE9x69CZlvkX39koe0jEjRaeDP4nsv6xqfRcPMHoJsFLAm"
